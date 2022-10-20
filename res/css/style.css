@@ -1,0 +1,179 @@
+*{
+    font-family: Helvetica;
+    box-sizing: border-box;
+  }
+
+.nav a{
+    text-decoration: none;
+}
+
+.nav a:visited{
+    color: black;
+}
+
+.box a{
+    text-decoration: none;
+    color: rgb(160, 215, 234);
+    font-weight: bold;
+}
+
+.box a:visited{
+    color: rgb(125, 201, 228);
+}
+
+a:hover{
+    background-color: #dbd7da;
+}
+
+p.thick {
+  font-weight: bold;
+}
+
+.nav{
+    display:flex;
+    align-items: center;
+    height: max-content;
+    font-size: 2em;
+}
+
+.container {
+  align-items: center;
+  text-align: center;
+  padding: 5%;
+}
+.header {
+    position: sticky;
+    top: 0;
+    padding-bottom: 1%;
+    overflow: auto;
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #b6afb4;
+    border-radius: 25px;
+    width: 100%; 
+}
+
+
+.box {
+    margin: auto;
+    width: 320px;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    background-color: #b6afb4;
+    border-radius: 25px;
+}
+
+.box2{
+    display: flex;
+    margin: auto;
+    width: 25%;
+    padding: 2%;
+    flex-direction: column;
+    align-items: center;
+    background-color: #b6afb4;
+    border-radius: 25px;
+    gap: 20px;
+}
+
+.profilepic{
+    width: 40px;
+    height: 40px;
+}
+
+
+
+
+section{
+    margin-top: 10px;
+}
+div.sidebar{
+    width: 20%;
+    background-color: #b6afb4;
+    border-radius: 25px;
+}
+div.posts{
+    flex-wrap: nowrap;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-evenly;
+    
+    /*background-color: #dbd7da;*/
+}
+div.post{
+    overflow:auto;
+    border-radius: 25px;
+    background-color: #dbd7da;
+    padding: 2%;
+}
+.postbody > p{
+    text-align: justify;
+}
+.postbody{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.postheader{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1%;
+    align-items: center;
+}
+.flexsection{
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.footer{
+    margin-top: 10px;
+    border-radius: 25px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #b6afb4;
+}
+.footer > p{
+    font-size: 2em;
+
+}
+
+#footer{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.post > img + p{
+    font-weight: bold;
+}
+
+.post > img ~ p{
+    font-style: italic;
+}
+
+.essakast{
+
+    display: flex;
+    max-width: 100%;
+    flex-direction: row;
+    gap: 20px;
+}
+.teinekast{
+    display: flex;
+    max-width: 100%;
+    margin-right: -20%;
+    justify-content: center;
+    gap: 20px;
+}
+
