@@ -87,3 +87,6 @@ window.onload = function() {
     }
 
 }
+function showDropDown() {
+    document.getElementById("myDropdown").classList.toggle("show")
+}
