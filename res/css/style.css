@@ -45,7 +45,7 @@ p.thick {
     position: sticky;
     top: 0;
     padding-bottom: 1%;
-    overflow: auto;
+    overflow: visible;
     padding: 1%;
     display: flex;
     justify-content: space-between;
@@ -180,7 +180,7 @@ img{
 
 .dropdown-content {
     display: none;
-    position: relative;
+    position: absolute;
     right: 0;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
