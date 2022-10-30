@@ -70,9 +70,14 @@ window.onload = function() {
             }
         })
 
+    
+    //document.getElementById("drop").addEventListener("click", myFunction);
+
     function myFunction() {
+        console.log("tont");
         document.getElementById("myDropdown").classList.toggle("show");
     }
+    
     window.onclick = function(event) {
         if (!event.target.matches('.dropbtn')) {
             var dropdowns = document.getElementsByClassName("dropdown-content");
@@ -86,7 +91,16 @@ window.onload = function() {
         }
     }
 
+    //function showDropDown() {
+    //    document.getElementById("myDropdown").classList.toggle("show")
+    //}
+
+    window.myFunction = myFunction;
+
+
 }
-function showDropDown() {
-    document.getElementById("myDropdown").classList.toggle("show")
-}
+
+
+
+
+

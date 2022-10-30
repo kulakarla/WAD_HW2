@@ -7,7 +7,7 @@
 
     <link rel="icon" href="/res/img/favicon.ico">
     <link rel="stylesheet" href="res/css/style.css">
-    <script type="text/javascript" src="src/js/script.js"></script>
+    <script type="text/javascript" src="src/js/script.js" type="module"></script>
     <title>Home</title>
 </head>
 <body>
@@ -19,7 +19,7 @@
         </div>
 
         <div class="dropdown">
-            <button onclick="showDropDown()"><img src="res/img/noprofilepic.jpg" height ="50" width="50" alt="My picture" /></button>
+            <button id="drop" class="dropbtn" onclick="myFunction()"><img src="res/img/noprofilepic.jpg" height ="50" width="50" alt="My picture" /></button>
             <div class="dropdown-content" id="myDropdown">
                 <a>John Doe</a>
                 <a>john.doe@ut.ee</a>
